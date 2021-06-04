@@ -1,0 +1,17 @@
+{
+    "name": "ado/integration-model-generator",
+    "description": "A package that allows you to generate PHP model classes from a JSON object and simplify API integrations using these models",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ado De Gryze",
+            "email": "adodegryze@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"ado\\IntegrationModelGenerator\\": "src/"}
+    },
+    "require": {}
+}
