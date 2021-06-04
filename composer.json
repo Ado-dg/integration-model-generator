@@ -11,7 +11,10 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"ado_dg\\IntegrationModelGenerator\\": "src/"}
+        "psr-4": {
+            "ado_dg\\IntegrationModelGenerator\\": "src/",
+            "PHPModelGenerator\\": "src/wol-soft/php-json-schema-model-generator/src/"
+        }
     },
     "require": {}
 }
