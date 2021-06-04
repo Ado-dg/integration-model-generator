@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6f13ec58dcaad373fa57329a89cae3c",
+    "content-hash": "5aa101a7e1b15f3bc00f7a15251730af",
     "packages": [
         {
             "name": "wol-soft/php-json-schema-model-generator",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wol-soft/php-json-schema-model-generator.git",
-                "reference": "86d18d2caa19cd8095aaa43a3de33d382b541108"
+                "url": "https://github.com/Ado-dg/php-json-schema-model-generator.git",
+                "reference": "df0850bfba5ba3017c234f21983710d5285479e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wol-soft/php-json-schema-model-generator/zipball/86d18d2caa19cd8095aaa43a3de33d382b541108",
-                "reference": "86d18d2caa19cd8095aaa43a3de33d382b541108",
+                "url": "https://api.github.com/repos/Ado-dg/php-json-schema-model-generator/zipball/df0850bfba5ba3017c234f21983710d5285479e3",
+                "reference": "df0850bfba5ba3017c234f21983710d5285479e3",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,12 @@
                     "PHPModelGenerator\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "PHPModelGenerator\\Tests\\": "tests",
+                    "ManualSchema\\": "tests/manual/result"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -53,10 +58,9 @@
             "description": "Creates (immutable) PHP model classes from JSON-Schema files including all validation rules as PHP code",
             "homepage": "https://github.com/wol-soft/php-json-schema-model-generator",
             "support": {
-                "issues": "https://github.com/wol-soft/php-json-schema-model-generator/issues",
-                "source": "https://github.com/wol-soft/php-json-schema-model-generator/tree/master"
+                "source": "https://github.com/Ado-dg/php-json-schema-model-generator/tree/master"
             },
-            "time": "2021-03-12T14:59:09+00:00"
+            "time": "2021-06-04T19:21:25+00:00"
         },
         {
             "name": "wol-soft/php-json-schema-model-generator-production",

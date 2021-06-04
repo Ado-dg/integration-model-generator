@@ -12,9 +12,17 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "ado_dg\\IntegrationModelGenerator\\": "src/",
-            "PHPModelGenerator\\": "src/wol-soft/php-json-schema-model-generator/src/"
+            "ado_dg\\IntegrationModelGenerator\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "wol-soft/php-json-schema-model-generator": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ado-dg/php-json-schema-model-generator"
+        }
+    ]
+    
 }
