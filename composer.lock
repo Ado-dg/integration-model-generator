@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c6f13ec58dcaad373fa57329a89cae3c",
+    "packages": [
+        {
+            "name": "wol-soft/php-json-schema-model-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wol-soft/php-json-schema-model-generator.git",
+                "reference": "86d18d2caa19cd8095aaa43a3de33d382b541108"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wol-soft/php-json-schema-model-generator/zipball/86d18d2caa19cd8095aaa43a3de33d382b541108",
+                "reference": "86d18d2caa19cd8095aaa43a3de33d382b541108",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.2",
+                "wol-soft/php-json-schema-model-generator-production": "^0.16.0",
+                "wol-soft/php-micro-template": "^1.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5 || ^9.4"
+            },
+            "suggest": {
+                "symplify/easy-coding-standard": "Allows pretty printing of the generated code"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPModelGenerator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enno Woortmann",
+                    "email": "enno.woortmann@web.de"
+                }
+            ],
+            "description": "Creates (immutable) PHP model classes from JSON-Schema files including all validation rules as PHP code",
+            "homepage": "https://github.com/wol-soft/php-json-schema-model-generator",
+            "support": {
+                "issues": "https://github.com/wol-soft/php-json-schema-model-generator/issues",
+                "source": "https://github.com/wol-soft/php-json-schema-model-generator/tree/master"
+            },
+            "time": "2021-03-12T14:59:09+00:00"
+        },
+        {
+            "name": "wol-soft/php-json-schema-model-generator-production",
+            "version": "0.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wol-soft/php-json-schema-model-generator-production.git",
+                "reference": "6d1bb959e517e978afa564fe2ee0f581faec3da8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wol-soft/php-json-schema-model-generator-production/zipball/6d1bb959e517e978afa564fe2ee0f581faec3da8",
+                "reference": "6d1bb959e517e978afa564fe2ee0f581faec3da8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPModelGenerator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enno Woortmann",
+                    "email": "enno.woortmann@web.de"
+                }
+            ],
+            "description": "Provides the production code required to use php-json-schema-model-generator as dev dependency",
+            "homepage": "https://github.com/wol-soft/php-json-schema-model-generator-production",
+            "support": {
+                "issues": "https://github.com/wol-soft/php-json-schema-model-generator-production/issues",
+                "source": "https://github.com/wol-soft/php-json-schema-model-generator-production/tree/0.16.0"
+            },
+            "time": "2021-02-10T10:38:02+00:00"
+        },
+        {
+            "name": "wol-soft/php-micro-template",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wol-soft/php-micro-template.git",
+                "reference": "2e469dd529c8172d04a6b06509ac81aa0d2960f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wol-soft/php-micro-template/zipball/2e469dd529c8172d04a6b06509ac81aa0d2960f1",
+                "reference": "2e469dd529c8172d04a6b06509ac81aa0d2960f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMicroTemplate\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enno Woortmann",
+                    "email": "enno.woortmann@web.de"
+                }
+            ],
+            "description": "A minimalistic templating engine for PHP",
+            "homepage": "https://github.com/wol-soft/php-micro-template",
+            "support": {
+                "issues": "https://github.com/wol-soft/php-micro-template/issues",
+                "source": "https://github.com/wol-soft/php-micro-template/tree/1.4.0"
+            },
+            "time": "2020-11-16T15:49:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "wol-soft/php-json-schema-model-generator": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
