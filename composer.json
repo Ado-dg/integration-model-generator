@@ -13,7 +13,5 @@
     "autoload": {
         "psr-4": {"ado_dg\\IntegrationModelGenerator\\": "src/"}
     },
-    "require": {
-        "wol-soft/php-json-schema-model-generator": "dev-master"
-    }
+    "require": {}
 }
