@@ -1,6 +1,6 @@
 <?php 
 
-namespace ado\IntegrationModelGenerator;
+namespace ado_dg\IntegrationModelGenerator;
 
 class Generator
 {
