@@ -1,5 +1,5 @@
 # Integration model generator
-Generates PHP model classes from JSON objects, to be used in API requests, using wol-soft's php generator(TODO).
+Generates PHP model classes from JSON objects, to be used in API requests, using wol-soft's php generator(https://github.com/wol-soft/php-json-schema-model-generator).
 
 ## Table of Contents ##
 
@@ -10,7 +10,9 @@ Generates PHP model classes from JSON objects, to be used in API requests, using
 
 ## Motivation ##
 
-TODO
+This library was made as part of a bachelor's dissertation and was created with the goal of improving API integration's efficiency. 
+This was achieved by giving the developers the possibility to generate PHP models for their API JSON bodies.
+This library is a work in progress project.
 
 ## Installation ##
 
