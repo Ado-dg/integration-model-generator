@@ -28,14 +28,14 @@ The first step is preparing your JSON, every field that should be dynamic in the
 }
 ```
 Then, the generator needs to be initialized with following parameters:
-  -namespace: the target namespace of the to be generated model
-  -model path: the target directory of the to be generated model, will be made if doesn't exist and will be cleared if exists
-  -schema path: the target directory where the JSON schema's require by wol-soft's library will be stored, will be made if doesn't exist
+*  namespace: the target namespace of the to be generated model
+*  model path: the target directory of the to be generated model, will be made if doesn't exist and will be cleared if exists
+*  schema path: the target directory where the JSON schema's require by wol-soft's library will be stored, will be made if doesn't exist
 
 Finally, the generation itself can happen by calling the "generateIntegrationModels" method of the generator object. 
 This requires the following parameters:
-  -json: JSON body to be converted to model classes
-  -model name: the name of the to be generated model class (both filename and classname)
+*  json: JSON body to be converted to model classes
+*  model name: the name of the to be generated model class (both filename and classname)
 
 ## Examples ##
 
