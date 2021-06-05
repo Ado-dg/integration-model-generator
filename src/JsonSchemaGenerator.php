@@ -31,7 +31,8 @@ class JsonSchemaGenerator
                 $this->properties[$key] = array("type" => "integer", "default" => $value);
             }
             elseif (strpos($value, '%') !== false) {
-                $this->properties[$key] = array("type" => "string");
+                $name = str_replace('%', '', $value);
+                $this->properties[$name] = array("type" => "string");
             }
         }
         $this->properties["json"] = array("type" => "string", "default" => "" . json_encode($json) . "");
